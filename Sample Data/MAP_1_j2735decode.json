@@ -1,0 +1,771 @@
+{
+    "MessageFrame": {
+        "messageId": "18",
+        "value": {
+            "MapData": {
+                "msgIssueRevision": "3",
+                "layerType": {
+                    "intersectionData": ""
+                },
+                "layerID": "1",
+                "intersections": {
+                    "IntersectionGeometry": {
+                        "id": {
+                            "id": "9709"
+                        },
+                        "revision": "3",
+                        "refPoint": {
+                            "lat": "389549844",
+                            "long": "-771493239",
+                            "elevation": "390"
+                        },
+                        "laneWidth": "274",
+                        "laneSet": {
+                            "GenericLane": [
+                                {
+                                    "laneID": "1",
+                                    "ingressApproach": "1",
+                                    "laneAttributes": {
+                                        "directionalUse": "10",
+                                        "sharedWith": "0000000000",
+                                        "laneType": {
+                                            "vehicle": ""
+                                        }
+                                    },
+                                    "nodeList": {
+                                        "nodes": {
+                                            "NodeXY": [
+                                                {
+                                                    "delta": {
+                                                        "node-XY3": {
+                                                            "x": "-523",
+                                                            "y": "-1294"
+                                                        }
+                                                    },
+                                                    "attributes": {
+                                                        "dElevation": "10"
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "-360",
+                                                            "y": "-724"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY3": {
+                                                            "x": "-622",
+                                                            "y": "-1111"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "-209",
+                                                            "y": "-654"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "76",
+                                                            "y": "-579"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY1": {
+                                                            "x": "366",
+                                                            "y": "-509"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "connectsTo": {
+                                        "Connection": [
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "6"
+                                                },
+                                                "signalGroup": "2"
+                                            },
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "7"
+                                                },
+                                                "signalGroup": "2"
+                                            },
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "8"
+                                                },
+                                                "signalGroup": "2"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "laneID": "5",
+                                    "egressApproach": "5",
+                                    "laneAttributes": {
+                                        "directionalUse": "01",
+                                        "sharedWith": "0000000000",
+                                        "laneType": {
+                                            "vehicle": ""
+                                        }
+                                    },
+                                    "nodeList": {
+                                        "nodes": {
+                                            "NodeXY": [
+                                                {
+                                                    "delta": {
+                                                        "node-XY3": {
+                                                            "x": "-965",
+                                                            "y": "-1056"
+                                                        }
+                                                    },
+                                                    "attributes": {
+                                                        "dElevation": "10"
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "-250",
+                                                            "y": "-527"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "-378",
+                                                            "y": "-781"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "-244",
+                                                            "y": "-619"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY1": {
+                                                            "x": "-174",
+                                                            "y": "-428"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "29",
+                                                            "y": "-729"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "laneID": "6",
+                                    "egressApproach": "6",
+                                    "laneAttributes": {
+                                        "directionalUse": "01",
+                                        "sharedWith": "0000000000",
+                                        "laneType": {
+                                            "vehicle": ""
+                                        }
+                                    },
+                                    "nodeList": {
+                                        "nodes": {
+                                            "NodeXY": [
+                                                {
+                                                    "delta": {
+                                                        "node-XY3": {
+                                                            "x": "1523",
+                                                            "y": "-518"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "581",
+                                                            "y": "-133"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY3": {
+                                                            "x": "1035",
+                                                            "y": "-162"
+                                                        }
+                                                    },
+                                                    "attributes": {
+                                                        "dElevation": "10"
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "953",
+                                                            "y": "-122"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "709",
+                                                            "y": "-41"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY3": {
+                                                            "x": "1360",
+                                                            "y": "-98"
+                                                        }
+                                                    },
+                                                    "attributes": {
+                                                        "dElevation": "10"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "laneID": "2",
+                                    "ingressApproach": "2",
+                                    "laneAttributes": {
+                                        "directionalUse": "10",
+                                        "sharedWith": "0000000000",
+                                        "laneType": {
+                                            "vehicle": ""
+                                        }
+                                    },
+                                    "nodeList": {
+                                        "nodes": {
+                                            "NodeXY": [
+                                                {
+                                                    "delta": {
+                                                        "node-XY3": {
+                                                            "x": "1604",
+                                                            "y": "-182"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "593",
+                                                            "y": "-139"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "924",
+                                                            "y": "-139"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "837",
+                                                            "y": "-110"
+                                                        }
+                                                    },
+                                                    "attributes": {
+                                                        "dElevation": "10"
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "872",
+                                                            "y": "-93"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY3": {
+                                                            "x": "1348",
+                                                            "y": "-64"
+                                                        }
+                                                    },
+                                                    "attributes": {
+                                                        "dElevation": "10"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "connectsTo": {
+                                        "Connection": [
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "5"
+                                                },
+                                                "signalGroup": "4"
+                                            },
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "7"
+                                                },
+                                                "signalGroup": "4"
+                                            },
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "8"
+                                                },
+                                                "signalGroup": "4"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "laneID": "7",
+                                    "egressApproach": "7",
+                                    "laneAttributes": {
+                                        "directionalUse": "01",
+                                        "sharedWith": "0000000000",
+                                        "laneType": {
+                                            "vehicle": ""
+                                        }
+                                    },
+                                    "nodeList": {
+                                        "nodes": {
+                                            "NodeXY": [
+                                                {
+                                                    "delta": {
+                                                        "node-XY3": {
+                                                            "x": "872",
+                                                            "y": "1363"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY1": {
+                                                            "x": "232",
+                                                            "y": "498"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "308",
+                                                            "y": "805"
+                                                        }
+                                                    },
+                                                    "attributes": {
+                                                        "dElevation": "-10"
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "331",
+                                                            "y": "741"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "250",
+                                                            "y": "712"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "laneID": "3",
+                                    "ingressApproach": "3",
+                                    "laneAttributes": {
+                                        "directionalUse": "10",
+                                        "sharedWith": "0000000000",
+                                        "laneType": {
+                                            "vehicle": ""
+                                        }
+                                    },
+                                    "nodeList": {
+                                        "nodes": {
+                                            "NodeXY": [
+                                                {
+                                                    "delta": {
+                                                        "node-XY3": {
+                                                            "x": "506",
+                                                            "y": "1467"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "349",
+                                                            "y": "735"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "372",
+                                                            "y": "897"
+                                                        }
+                                                    },
+                                                    "attributes": {
+                                                        "dElevation": "-10"
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "285",
+                                                            "y": "683"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY1": {
+                                                            "x": "215",
+                                                            "y": "480"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "connectsTo": {
+                                        "Connection": [
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "5"
+                                                },
+                                                "signalGroup": "2"
+                                            },
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "6"
+                                                },
+                                                "signalGroup": "2"
+                                            },
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "8"
+                                                },
+                                                "signalGroup": "2"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "laneID": "8",
+                                    "egressApproach": "8",
+                                    "laneAttributes": {
+                                        "directionalUse": "01",
+                                        "sharedWith": "0000000000",
+                                        "laneType": {
+                                            "vehicle": ""
+                                        }
+                                    },
+                                    "nodeList": {
+                                        "nodes": {
+                                            "NodeXY": [
+                                                {
+                                                    "delta": {
+                                                        "node-XY3": {
+                                                            "x": "-1540",
+                                                            "y": "703"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "-715",
+                                                            "y": "214"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "-808",
+                                                            "y": "359"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "-587",
+                                                            "y": "272"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY1": {
+                                                            "x": "-511",
+                                                            "y": "255"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "laneID": "4",
+                                    "ingressApproach": "4",
+                                    "laneAttributes": {
+                                        "directionalUse": "10",
+                                        "sharedWith": "0000000000",
+                                        "laneType": {
+                                            "vehicle": ""
+                                        }
+                                    },
+                                    "nodeList": {
+                                        "nodes": {
+                                            "NodeXY": [
+                                                {
+                                                    "delta": {
+                                                        "node-XY3": {
+                                                            "x": "-1651",
+                                                            "y": "368"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY1": {
+                                                            "x": "-465",
+                                                            "y": "139"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "-651",
+                                                            "y": "208"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "-639",
+                                                            "y": "232"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "-750",
+                                                            "y": "313"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "-761",
+                                                            "y": "492"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "connectsTo": {
+                                        "Connection": [
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "5"
+                                                },
+                                                "signalGroup": "4"
+                                            },
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "6"
+                                                },
+                                                "signalGroup": "4"
+                                            },
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "7"
+                                                },
+                                                "signalGroup": "4"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "laneID": "9",
+                                    "laneAttributes": {
+                                        "directionalUse": "00",
+                                        "sharedWith": "0000000000",
+                                        "laneType": {
+                                            "crosswalk": "0000000000000000"
+                                        }
+                                    },
+                                    "nodeList": {
+                                        "nodes": {
+                                            "NodeXY": [
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "-1023",
+                                                            "y": "-634"
+                                                        }
+                                                    },
+                                                    "attributes": {
+                                                        "dElevation": "10"
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "808",
+                                                            "y": "-365"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "laneID": "10",
+                                    "laneAttributes": {
+                                        "directionalUse": "00",
+                                        "sharedWith": "0000000000",
+                                        "laneType": {
+                                            "crosswalk": "0000000000000000"
+                                        }
+                                    },
+                                    "nodeList": {
+                                        "nodes": {
+                                            "NodeXY": [
+                                                {
+                                                    "delta": {
+                                                        "node-XY3": {
+                                                            "x": "1343",
+                                                            "y": "43"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "-134",
+                                                            "y": "-550"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "laneID": "11",
+                                    "laneAttributes": {
+                                        "directionalUse": "00",
+                                        "sharedWith": "0000000000",
+                                        "laneType": {
+                                            "crosswalk": "0000000000000000"
+                                        }
+                                    },
+                                    "nodeList": {
+                                        "nodes": {
+                                            "NodeXY": [
+                                                {
+                                                    "delta": {
+                                                        "node-XY3": {
+                                                            "x": "238",
+                                                            "y": "1213"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "593",
+                                                            "y": "-203"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "laneID": "12",
+                                    "laneAttributes": {
+                                        "directionalUse": "00",
+                                        "sharedWith": "0000000000",
+                                        "laneType": {
+                                            "crosswalk": "0000000000000000"
+                                        }
+                                    },
+                                    "nodeList": {
+                                        "nodes": {
+                                            "NodeXY": [
+                                                {
+                                                    "delta": {
+                                                        "node-XY3": {
+                                                            "x": "-1174",
+                                                            "y": "738"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-XY2": {
+                                                            "x": "-157",
+                                                            "y": "-515"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

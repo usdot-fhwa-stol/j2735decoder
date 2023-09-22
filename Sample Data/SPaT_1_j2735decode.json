@@ -1,0 +1,39 @@
+{
+    "MessageFrame": {
+        "messageId": "19",
+        "value": {
+            "SPAT": {
+                "intersections": {
+                    "IntersectionState": {
+                        "id": {
+                            "id": "5813"
+                        },
+                        "revision": "1",
+                        "status": "0000000000000000",
+                        "moy": "137825",
+                        "states": {
+                            "MovementState": {
+                                "signalGroup": "7",
+                                "state-time-speed": {
+                                    "MovementEvent": {
+                                        "eventState": {
+                                            "permissive-clearance": ""
+                                        },
+                                        "timing": {
+                                            "startTime": "0",
+                                            "minEndTime": "40",
+                                            "maxEndTime": "40",
+                                            "likelyTime": "40",
+                                            "confidence": "15",
+                                            "nextTime": "0"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

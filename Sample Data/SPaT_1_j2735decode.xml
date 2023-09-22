@@ -1,0 +1,37 @@
+<MessageFrame>
+		<messageId>19</messageId>
+		<value>
+			<SPAT>
+				<intersections>
+					<IntersectionState>
+						<id>
+							<id>5813</id>
+						</id>
+						<revision>1</revision>
+						<status>0000000000000000</status>
+						<moy>137825</moy>
+						<states>
+							<MovementState>
+								<signalGroup>7</signalGroup>
+								<state-time-speed>
+									<MovementEvent>
+										<eventState>
+											<permissive-clearance />
+										</eventState>
+										<timing>
+											<startTime>0</startTime>
+											<minEndTime>40</minEndTime>
+											<maxEndTime>40</maxEndTime>
+											<likelyTime>40</likelyTime>
+											<confidence>15</confidence>
+											<nextTime>0</nextTime>
+										</timing>
+									</MovementEvent>
+								</state-time-speed>
+							</MovementState>
+						</states>
+					</IntersectionState>
+				</intersections>
+			</SPAT>
+		</value>
+	</MessageFrame>

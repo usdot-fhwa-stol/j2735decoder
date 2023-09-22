@@ -1,65 +1,100 @@
+
 <h1 align="center"> V2X Communication Message Decoder </h1>
 
-Python library to decode SAE J2735 encoded UPER hex (Currently supporting BSM, MAP, SPaT).
+A Python library crafted to decode SAE J2735 encoded UPER hex messages. At present, it supports BSM, MAP, and SPaT message types.
 
-## Dependencies
+### Built With
 
-* Python3
+- [pycrate](https://github.com/P1sec/pycrate)
+- [J2735: Dedicated Short Range Communications Message Set](https://www.sae.org/standards/content/j2735_201603/)
 
-### Python Libraries
-* Pycrate
+## Getting Started
+
+> **Note**: The library has been tested on Ubuntu20.
+
+### Prerequisites
+
+- **Python 3**
+
+#### Required Python Libraries
+
+- **Pycrate**
 ```sh
 pip install pycrate 
 ```
-* binascii
-* xml.etree.ElementTree
-* xmltodict
+- **binascii**
+- **xml.etree.ElementTree**
+- **xmltodict**
 ```sh
 pip install xmltodict 
 ```
-* json
-* json2xml
+- **json**
+- **json2xml**
 ```sh
 pip install json2xml 
 ```
 
+## Usage: `J2735_decode` Function
 
-## Usage 
-Import J2735_decode function from CAVmessage.py library into your python. 
+### 1. **Importing the Function**:
+   To get started, first import the `J2735_decode` function from the `CAVmessage.py` module.
+   ```python
+   from CAVmessage import J2735_decode
+   ```
 
-j2735_decode function
-    
-* Function to decode J2735 UPER hex to XML or JSON.
-* Supported messages - BSM, MAP, SPaT.
-* Input - 
-    1. Payload - UPER hex payload.
-    2. FileSave [Default = False] - If "True" the function will save both XML and JSON decoded files into running directory. (Filenames - j2735decode.xml and j2735decode.json)
-* Output - XML and JSON decoded J2735 message.
+### 2. **Understanding the Function**:
+   The function is designed to decode J2735 UPER hex payloads into XML or JSON.
 
-### Example
+   - **Primary Objective**: Convert J2735 UPER hex into XML or JSON format.
+   - **Supported Messages**: BSM, MAP, SPaT.
+   - **Inputs**:
+     - `Payload`: Represents the UPER hex payload intended for decoding.
+     - `FileSave` (default value is `False`): When set to `True`, the decoded XML and JSON outputs are saved in the directory from which the script is executed.
+   - **Outputs**: The function provides a decoded J2735 message in both XML and JSON formats.
 
-decode = J2735_decode(payload)
+### 3. **Utilizing the Function**:
 
-Generated output class file contains both XML and JSON formated output.
+   Basic usage:
+   ```python
+   decode = J2735_decode(payload)
+   ```
 
-To get XML file use "decode.xml" and to get JSON file use "decode.json".
+   To save outputs as files:
+   ```python
+   decode = J2735_decode(payload, True)
+   ```
 
-### Test
+### 4. **Extracting the Outputs**:
+   
+   - To retrieve the XML format:
+     ```python
+     print(decode.xml)
+     ```
+   - To retrieve the JSON format:
+     ```python
+     print(decode.json)
+     ```
 
-To get started try running "main_test.py" with different payload values that print out both XML and JSON files to terminal to test out installation.  
+### 5. **Test Your Setup**:
 
-## Contributing
+   For an initial test, execute the `main_test.py` script. You can modify the payload values in this script as needed, and then inspect the XML and JSON outputs directly in the terminal.
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+## Sample Data Insights
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Within the `Sample Data` directory, you'll find "SampleHexPayloads.txt". This file contains several J2735 encoded UPER hex payloads. Corresponding decoded XML and JSON messages for these payloads are also available in the same directory.
 
+## Contributing to the Project
 
-## Contact
-CAV support services - [CAVSupportServices@dot.gov](CAVSupportServices@dot.gov)
+Your contributions enrich the open-source community, making it a vibrant place for learning, inspiration, and creativity. Every contribution, however small, is invaluable.
+
+1. Fork the Project.
+2. Spawn your Feature Branch (`git checkout -b feature/YourFeatureName`).
+3. Commit the changes (`git commit -m 'Introduce YourFeatureName'`).
+4. Push to the branch (`git push origin feature/YourFeatureName`).
+5. Initiate a Pull Request.
+
+## Get in Touch
+
+For any queries or support, reach out to: [CAVSupportServices@dot.gov](mailto:CAVSupportServices@dot.gov).
 
 

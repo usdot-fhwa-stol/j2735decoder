@@ -1,0 +1,783 @@
+{
+    "MessageFrame": {
+        "messageId": "18",
+        "value": {
+            "MapData": {
+                "msgIssueRevision": "2",
+                "layerType": {
+                    "intersectionData": ""
+                },
+                "layerID": "0",
+                "intersections": {
+                    "IntersectionGeometry": {
+                        "id": {
+                            "id": "2580"
+                        },
+                        "revision": "2",
+                        "refPoint": {
+                            "lat": "423015123",
+                            "long": "-836979285",
+                            "elevation": "2410"
+                        },
+                        "laneWidth": "366",
+                        "laneSet": {
+                            "GenericLane": [
+                                {
+                                    "laneID": "1",
+                                    "egressApproach": "1",
+                                    "laneAttributes": {
+                                        "directionalUse": "01",
+                                        "sharedWith": "0000000000",
+                                        "laneType": {
+                                            "vehicle": ""
+                                        }
+                                    },
+                                    "nodeList": {
+                                        "nodes": {
+                                            "NodeXY": [
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836978735",
+                                                            "lat": "423015735"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836978804",
+                                                            "lat": "423017492"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836978838",
+                                                            "lat": "423019326"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836978907",
+                                                            "lat": "423020855"
+                                                        }
+                                                    },
+                                                    "attributes": {
+                                                        "dElevation": "10"
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836978976",
+                                                            "lat": "423022765"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836978872",
+                                                            "lat": "423024090"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836978597",
+                                                            "lat": "423024981"
+                                                        }
+                                                    },
+                                                    "attributes": {
+                                                        "dElevation": "10"
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836978149",
+                                                            "lat": "423025542"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836977529",
+                                                            "lat": "423026051"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836976806",
+                                                            "lat": "423026382"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836976220",
+                                                            "lat": "423026408"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836975738",
+                                                            "lat": "423026331"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "laneID": "2",
+                                    "ingressApproach": "2",
+                                    "laneAttributes": {
+                                        "directionalUse": "10",
+                                        "sharedWith": "0000000000",
+                                        "laneType": {
+                                            "vehicle": ""
+                                        }
+                                    },
+                                    "nodeList": {
+                                        "nodes": {
+                                            "NodeXY": [
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836979767",
+                                                            "lat": "423015326"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836979732",
+                                                            "lat": "423016829"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836979732",
+                                                            "lat": "423018434"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836979698",
+                                                            "lat": "423019835"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836979663",
+                                                            "lat": "423022051"
+                                                        }
+                                                    },
+                                                    "attributes": {
+                                                        "dElevation": "10"
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836979629",
+                                                            "lat": "423023019"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836979595",
+                                                            "lat": "423023987"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836979457",
+                                                            "lat": "423024777"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836979181",
+                                                            "lat": "423025465"
+                                                        }
+                                                    },
+                                                    "attributes": {
+                                                        "dElevation": "10"
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836978596",
+                                                            "lat": "423026101"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836977976",
+                                                            "lat": "423026534"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836977149",
+                                                            "lat": "423026866"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836976495",
+                                                            "lat": "423026891"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836975668",
+                                                            "lat": "423026815"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "connectsTo": {
+                                        "Connection": [
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "3"
+                                                },
+                                                "signalGroup": "2"
+                                            },
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "5"
+                                                },
+                                                "signalGroup": "2"
+                                            },
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "7"
+                                                },
+                                                "signalGroup": "2"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "laneID": "3",
+                                    "egressApproach": "3",
+                                    "laneAttributes": {
+                                        "directionalUse": "01",
+                                        "sharedWith": "0000000000",
+                                        "laneType": {
+                                            "vehicle": ""
+                                        }
+                                    },
+                                    "nodeList": {
+                                        "nodes": {
+                                            "NodeXY": [
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836980869",
+                                                            "lat": "423014175"
+                                                        }
+                                                    },
+                                                    "attributes": {
+                                                        "dElevation": "-10"
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836982827",
+                                                            "lat": "423013460"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836985509",
+                                                            "lat": "423012528"
+                                                        }
+                                                    },
+                                                    "attributes": {
+                                                        "dElevation": "-10"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "laneID": "4",
+                                    "ingressApproach": "4",
+                                    "laneAttributes": {
+                                        "directionalUse": "10",
+                                        "sharedWith": "0000000000",
+                                        "laneType": {
+                                            "vehicle": ""
+                                        }
+                                    },
+                                    "nodeList": {
+                                        "nodes": {
+                                            "NodeXY": [
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836980641",
+                                                            "lat": "423013530"
+                                                        }
+                                                    },
+                                                    "attributes": {
+                                                        "dElevation": "-10"
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836982626",
+                                                            "lat": "423012905"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836985214",
+                                                            "lat": "423012032"
+                                                        }
+                                                    },
+                                                    "attributes": {
+                                                        "dElevation": "-10"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "connectsTo": {
+                                        "Connection": [
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "1"
+                                                },
+                                                "signalGroup": "4"
+                                            },
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "5"
+                                                },
+                                                "signalGroup": "4"
+                                            },
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "7"
+                                                },
+                                                "signalGroup": "4"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "laneID": "5",
+                                    "egressApproach": "5",
+                                    "laneAttributes": {
+                                        "directionalUse": "01",
+                                        "sharedWith": "0000000000",
+                                        "laneType": {
+                                            "vehicle": ""
+                                        }
+                                    },
+                                    "nodeList": {
+                                        "nodes": {
+                                            "NodeXY": [
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836979823",
+                                                            "lat": "423013113"
+                                                        }
+                                                    },
+                                                    "attributes": {
+                                                        "dElevation": "-10"
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836979796",
+                                                            "lat": "423011268"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836979876",
+                                                            "lat": "423009285"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "laneID": "6",
+                                    "ingressApproach": "6",
+                                    "laneAttributes": {
+                                        "directionalUse": "10",
+                                        "sharedWith": "0000000000",
+                                        "laneType": {
+                                            "vehicle": ""
+                                        }
+                                    },
+                                    "nodeList": {
+                                        "nodes": {
+                                            "NodeXY": [
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836978991",
+                                                            "lat": "423013173"
+                                                        }
+                                                    },
+                                                    "attributes": {
+                                                        "dElevation": "-10"
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836979018",
+                                                            "lat": "423011288"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836979018",
+                                                            "lat": "423009324"
+                                                        }
+                                                    },
+                                                    "attributes": {
+                                                        "dElevation": "-10"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "connectsTo": {
+                                        "Connection": [
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "1"
+                                                },
+                                                "signalGroup": "6"
+                                            },
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "3"
+                                                },
+                                                "signalGroup": "6"
+                                            },
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "7"
+                                                },
+                                                "signalGroup": "6"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "laneID": "7",
+                                    "egressApproach": "7",
+                                    "laneAttributes": {
+                                        "directionalUse": "01",
+                                        "sharedWith": "0000000000",
+                                        "laneType": {
+                                            "vehicle": ""
+                                        }
+                                    },
+                                    "nodeList": {
+                                        "nodes": {
+                                            "NodeXY": [
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836977650",
+                                                            "lat": "423014601"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836976752",
+                                                            "lat": "423015335"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836976242",
+                                                            "lat": "423015950"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836976041",
+                                                            "lat": "423016515"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836975960",
+                                                            "lat": "423017081"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836976001",
+                                                            "lat": "423017587"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836976108",
+                                                            "lat": "423018003"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836976403",
+                                                            "lat": "423018529"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836976792",
+                                                            "lat": "423019015"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836977342",
+                                                            "lat": "423019620"
+                                                        }
+                                                    },
+                                                    "attributes": {
+                                                        "dElevation": "10"
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836977798",
+                                                            "lat": "423020086"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836978120",
+                                                            "lat": "423020533"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836978509",
+                                                            "lat": "423021158"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "laneID": "8",
+                                    "ingressApproach": "8",
+                                    "laneAttributes": {
+                                        "directionalUse": "10",
+                                        "sharedWith": "0000000000",
+                                        "laneType": {
+                                            "vehicle": ""
+                                        }
+                                    },
+                                    "nodeList": {
+                                        "nodes": {
+                                            "NodeXY": [
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836978120",
+                                                            "lat": "423015147"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836977328",
+                                                            "lat": "423015702"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836976859",
+                                                            "lat": "423016208"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836976725",
+                                                            "lat": "423016813"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836976752",
+                                                            "lat": "423017339"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836976859",
+                                                            "lat": "423017785"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836977167",
+                                                            "lat": "423018400"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836977650",
+                                                            "lat": "423019035"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836978214",
+                                                            "lat": "423019709"
+                                                        }
+                                                    },
+                                                    "attributes": {
+                                                        "dElevation": "10"
+                                                    }
+                                                },
+                                                {
+                                                    "delta": {
+                                                        "node-LatLon": {
+                                                            "lon": "-836978549",
+                                                            "lat": "423020146"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "connectsTo": {
+                                        "Connection": [
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "1"
+                                                },
+                                                "signalGroup": "8"
+                                            },
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "3"
+                                                },
+                                                "signalGroup": "8"
+                                            },
+                                            {
+                                                "connectingLane": {
+                                                    "lane": "5"
+                                                },
+                                                "signalGroup": "8"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

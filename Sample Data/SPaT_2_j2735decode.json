@@ -1,0 +1,187 @@
+{
+    "MessageFrame": {
+        "messageId": "19",
+        "value": {
+            "SPAT": {
+                "intersections": {
+                    "IntersectionState": {
+                        "name": {
+                            "Intersection": ""
+                        },
+                        "id": {
+                            "id": "1"
+                        },
+                        "revision": "1",
+                        "status": "0000000010000000",
+                        "moy": "349345",
+                        "timeStamp": "477",
+                        "states": {
+                            "MovementState": [
+                                {
+                                    "signalGroup": "1",
+                                    "state-time-speed": {
+                                        "MovementEvent": {
+                                            "eventState": {
+                                                "stop-And-Remain": ""
+                                            },
+                                            "timing": {
+                                                "minEndTime": "15004"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "signalGroup": "2",
+                                    "state-time-speed": {
+                                        "MovementEvent": {
+                                            "eventState": {
+                                                "stop-And-Remain": ""
+                                            },
+                                            "timing": {
+                                                "minEndTime": "15022",
+                                                "maxEndTime": "15022"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "signalGroup": "22",
+                                    "state-time-speed": {
+                                        "MovementEvent": {
+                                            "eventState": {
+                                                "stop-And-Remain": ""
+                                            },
+                                            "timing": {
+                                                "minEndTime": "15004"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "signalGroup": "3",
+                                    "state-time-speed": {
+                                        "MovementEvent": {
+                                            "eventState": {
+                                                "stop-And-Remain": ""
+                                            },
+                                            "timing": {
+                                                "minEndTime": "15004"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "signalGroup": "4",
+                                    "state-time-speed": {
+                                        "MovementEvent": {
+                                            "eventState": {
+                                                "stop-And-Remain": ""
+                                            },
+                                            "timing": {
+                                                "minEndTime": "15022",
+                                                "maxEndTime": "15022"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "signalGroup": "24",
+                                    "state-time-speed": {
+                                        "MovementEvent": {
+                                            "eventState": {
+                                                "stop-And-Remain": ""
+                                            },
+                                            "timing": {
+                                                "minEndTime": "15004"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "signalGroup": "5",
+                                    "state-time-speed": {
+                                        "MovementEvent": {
+                                            "eventState": {
+                                                "stop-And-Remain": ""
+                                            },
+                                            "timing": {
+                                                "minEndTime": "15004"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "signalGroup": "6",
+                                    "state-time-speed": {
+                                        "MovementEvent": {
+                                            "eventState": {
+                                                "stop-And-Remain": ""
+                                            },
+                                            "timing": {
+                                                "minEndTime": "15022",
+                                                "maxEndTime": "15022"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "signalGroup": "26",
+                                    "state-time-speed": {
+                                        "MovementEvent": {
+                                            "eventState": {
+                                                "stop-And-Remain": ""
+                                            },
+                                            "timing": {
+                                                "minEndTime": "15004"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "signalGroup": "7",
+                                    "state-time-speed": {
+                                        "MovementEvent": {
+                                            "eventState": {
+                                                "stop-And-Remain": ""
+                                            },
+                                            "timing": {
+                                                "minEndTime": "15004"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "signalGroup": "8",
+                                    "state-time-speed": {
+                                        "MovementEvent": {
+                                            "eventState": {
+                                                "stop-And-Remain": ""
+                                            },
+                                            "timing": {
+                                                "minEndTime": "15022",
+                                                "maxEndTime": "15022"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "signalGroup": "28",
+                                    "state-time-speed": {
+                                        "MovementEvent": {
+                                            "eventState": {
+                                                "stop-And-Remain": ""
+                                            },
+                                            "timing": {
+                                                "minEndTime": "15004"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

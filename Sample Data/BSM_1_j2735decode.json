@@ -1,0 +1,56 @@
+{
+    "MessageFrame": {
+        "messageId": "20",
+        "value": {
+            "BasicSafetyMessage": {
+                "coreData": {
+                    "msgCnt": "25",
+                    "id": "F03AD610",
+                    "secMark": "38283",
+                    "lat": "389557079",
+                    "long": "-771505975",
+                    "elev": "370",
+                    "accuracy": {
+                        "semiMajor": "255",
+                        "semiMinor": "255",
+                        "orientation": "65535"
+                    },
+                    "transmission": {
+                        "park": ""
+                    },
+                    "speed": "0",
+                    "heading": "10201",
+                    "angle": "-27",
+                    "accelSet": {
+                        "long": "0",
+                        "lat": "0",
+                        "vert": "-127",
+                        "yaw": "0"
+                    },
+                    "brakes": {
+                        "wheelBrakes": "10000",
+                        "traction": {
+                            "unavailable": ""
+                        },
+                        "abs": {
+                            "unavailable": ""
+                        },
+                        "scs": {
+                            "unavailable": ""
+                        },
+                        "brakeBoost": {
+                            "unavailable": ""
+                        },
+                        "auxBrakes": {
+                            "unavailable": ""
+                        }
+                    },
+                    "size": {
+                        "width": "200",
+                        "length": "500"
+                    }
+                }
+            }
+        }
+    }
+}

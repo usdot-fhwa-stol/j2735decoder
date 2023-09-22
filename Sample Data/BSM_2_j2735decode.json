@@ -1,0 +1,111 @@
+{
+    "MessageFrame": {
+        "messageId": "20",
+        "value": {
+            "BasicSafetyMessage": {
+                "coreData": {
+                    "msgCnt": "22",
+                    "id": "9BBB000A",
+                    "secMark": "46864",
+                    "lat": "389566368",
+                    "long": "-771492276",
+                    "elev": "408",
+                    "accuracy": {
+                        "semiMajor": "8",
+                        "semiMinor": "8",
+                        "orientation": "0"
+                    },
+                    "transmission": {
+                        "forwardGears": ""
+                    },
+                    "speed": "338",
+                    "heading": "28108",
+                    "angle": "-101",
+                    "accelSet": {
+                        "long": "-58",
+                        "lat": "-250",
+                        "vert": "-127",
+                        "yaw": "-2043"
+                    },
+                    "brakes": {
+                        "wheelBrakes": "00000",
+                        "traction": {
+                            "on": ""
+                        },
+                        "abs": {
+                            "on": ""
+                        },
+                        "scs": {
+                            "on": ""
+                        },
+                        "brakeBoost": {
+                            "unavailable": ""
+                        },
+                        "auxBrakes": {
+                            "unavailable": ""
+                        }
+                    },
+                    "size": {
+                        "width": "159",
+                        "length": "314"
+                    }
+                },
+                "partII": {
+                    "PartIIcontent": {
+                        "partII-Id": "0",
+                        "partII-Value": {
+                            "VehicleSafetyExtensions": {
+                                "pathHistory": {
+                                    "crumbData": {
+                                        "PathHistoryPoint": [
+                                            {
+                                                "latOffset": "714",
+                                                "lonOffset": "-16",
+                                                "elevationOffset": "0",
+                                                "timeOffset": "115"
+                                            },
+                                            {
+                                                "latOffset": "5269",
+                                                "lonOffset": "2336",
+                                                "elevationOffset": "0",
+                                                "timeOffset": "925"
+                                            },
+                                            {
+                                                "latOffset": "6039",
+                                                "lonOffset": "1912",
+                                                "elevationOffset": "-9",
+                                                "timeOffset": "1105"
+                                            },
+                                            {
+                                                "latOffset": "7670",
+                                                "lonOffset": "-3041",
+                                                "elevationOffset": "-16",
+                                                "timeOffset": "1695"
+                                            },
+                                            {
+                                                "latOffset": "9827",
+                                                "lonOffset": "-9033",
+                                                "elevationOffset": "-18",
+                                                "timeOffset": "2285"
+                                            },
+                                            {
+                                                "latOffset": "12366",
+                                                "lonOffset": "-16554",
+                                                "elevationOffset": "-14",
+                                                "timeOffset": "3065"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "pathPrediction": {
+                                    "radiusOfCurve": "-296",
+                                    "confidence": "81"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
