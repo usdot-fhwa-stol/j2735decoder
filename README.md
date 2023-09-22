@@ -10,7 +10,7 @@ A Python library crafted to decode SAE J2735 encoded UPER hex messages. At prese
 
 ## Getting Started
 
-> **Note**: The library has been tested on Ubuntu20.
+> **Note**: The library has been tested on Ubuntu20 and Windows10.
 
 ### Prerequisites
 
@@ -22,17 +22,20 @@ A Python library crafted to decode SAE J2735 encoded UPER hex messages. At prese
 ```sh
 pip install pycrate 
 ```
-- **binascii**
-- **xml.etree.ElementTree**
+
 - **xmltodict**
 ```sh
 pip install xmltodict 
 ```
-- **json**
+
 - **json2xml**
 ```sh
 pip install json2xml 
 ```
+[The following libraries are essential and should already be part of a standard Python3 installation:]
+- **json**
+- **binascii**
+- **xml.etree.ElementTree**
 
 ## Usage: `J2735_decode` Function
 
