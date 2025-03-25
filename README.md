@@ -1,7 +1,7 @@
 
 <h1 align="center"> V2X Communication Message Decoder </h1>
 
-A Python library crafted to decode SAE J2735 encoded UPER hex messages. At present, it supports BSM, MAP, and SPaT message types.
+A Python library crafted to decode SAE J2735 encoded UPER HEX messages.
 
 ### Built With
 

@@ -12,15 +12,15 @@ class J2735_decode:
     Input - UPER hex payload
     Output - XML and JSON decoded J2735 message 
     '''
-    def __init__(self, payload,save=False):
+    def __init__(self, payload, save=False):
         decode = J2735_201603_combined_mobility.DSRC.MessageFrame
         decode.from_uper(unhexlify(payload))
         j2735_dict = {}
         j2735_dict["MessageFrame"] = decode()
 
         self.cleanObj = self.convertBytes(decode())
-        self.xml = self.dict2xml(j2735_dict,save)
-        self.json = self.writeJson(self.cleanObj,save)
+        self.xml = self.dict2xml(j2735_dict, save)
+        self.json = self.writeJson(self.cleanObj, save)
 
     def convertBytes(self, obj):
         if isinstance(obj, dict):
