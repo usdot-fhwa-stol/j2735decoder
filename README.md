@@ -20,17 +20,17 @@ A Python library crafted to decode SAE J2735 encoded UPER hex messages. At prese
 
 - **Pycrate**
 ```sh
-pip install pycrate 
+pip install pycrate==0.7.8
 ```
 
 - **xmltodict**
 ```sh
-pip install xmltodict 
+pip install xmltodict==0.14.2
 ```
 
 - **json2xml**
 ```sh
-pip install json2xml 
+pip install json2xml==4.1.0
 ```
 [The following libraries are essential and should already be part of a standard Python3 installation:]
 - **json**
