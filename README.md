@@ -5,12 +5,12 @@ A Python library crafted to decode SAE J2735 encoded UPER HEX messages.
 
 ### Built With
 
-- [pycrate](https://github.com/P1sec/pycrate)
-- [J2735: Dedicated Short Range Communications Message Set](https://www.sae.org/standards/content/j2735_201603/)
+- [pycrate](https://github.com/pycrate-org/pycrate)
+- [J2735: Dedicated Short Range Communications Message Set](https://www.sae.org/standards/content/j2735_202409/)
 
 ## Getting Started
 
-> **Note**: The library has been tested on Ubuntu 20.04 and Windows 10.
+> **Note**: The library has been tested on Ubuntu 22.04 and Windows 10.
 
 ### Prerequisites
 
@@ -20,12 +20,7 @@ A Python library crafted to decode SAE J2735 encoded UPER HEX messages.
 
 - **Pycrate**
 ```sh
-pip install pycrate==0.7.8
-```
-
-- **xmltodict**
-```sh
-pip install xmltodict==0.14.2
+pip install pycrate==0.7.11
 ```
 
 - **json2xml**
@@ -35,7 +30,6 @@ pip install json2xml==4.1.0
 [The following libraries are essential and should already be part of a standard Python3 installation:]
 - **json**
 - **binascii**
-- **xml.etree.ElementTree**
 
 ## Usage: `J2735_decode` Function
 
@@ -49,7 +43,6 @@ pip install json2xml==4.1.0
    The function is designed to decode J2735 UPER hex payloads into XML or JSON.
 
    - **Primary Objective**: Convert J2735 UPER hex into XML or JSON format.
-   - **Supported Messages**: BSM, MAP, SPaT.
    - **Inputs**:
      - `Payload`: Represents the UPER hex payload intended for decoding.
      - `FileSave` (default value is `False`): When set to `True`, the decoded XML and JSON outputs are saved in the directory from which the script is executed.
@@ -99,5 +92,3 @@ Your contributions enrich the open-source community, making it a vibrant place f
 ## Get in Touch
 
 For any queries or support, reach out to: [CAVSupportServices@dot.gov](mailto:CAVSupportServices@dot.gov).
-
-

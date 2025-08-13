@@ -1,58 +1,62 @@
-#!/usr/bin/python3
-import J2735_201603_combined_mobility
+#!/usr/bin/env python3
+import J2735_202409
 from binascii import unhexlify
-import json
-import xml.etree.ElementTree as ET
 from json2xml import json2xml
+from json2xml.utils import readfromstring
+
+MESSAGE_FRAME = J2735_202409.MessageFrame.MessageFrame
 
 class J2735_decode:
     '''
     Class to decode J2735 UPER hex to XML or JSON.
-    Supported messages - BSM, MAP, SPaT
+
     Input - UPER hex payload
-    Output - XML and JSON decoded J2735 message 
+
+    Output - XML and JSON decoded J2735 message
     '''
     def __init__(self, payload, save=False):
-        decode = J2735_201603_combined_mobility.DSRC.MessageFrame
+        decode = MESSAGE_FRAME
         decode.from_uper(unhexlify(payload))
-        j2735_dict = {}
-        j2735_dict["MessageFrame"] = decode()
+        jer = decode.to_jer()
 
-        self.cleanObj = self.convertBytes(decode())
-        self.xml = self.dict2xml(j2735_dict, save)
-        self.json = self.writeJson(self.cleanObj, save)
+        self.xml = self.dict2xml(jer, save)
+        self.json = self.writeJson(jer, save)
 
-    def convertBytes(self, obj):
-        if isinstance(obj, dict):
-            return {k: self.convertBytes(v) for k, v in obj.items()}
-        elif isinstance(obj, list):
-            return [self.convertBytes(item) for item in obj]
-        elif isinstance(obj, tuple):
-            return [self.convertBytes(item) for item in obj]
-        elif isinstance(obj, bytes):
-            return obj.hex()
-        else:
-            return obj
+    def dict2xml(self, jer: str, save=False) -> str:
+        '''
+        Convert J2735 JER to XML.
 
-    def dict2xml(self, j2735_dict, save=False):
-        xml_str = json2xml.Json2xml(j2735_dict,item_wrap=True,attr_type=False).to_xml()
-        xml_root = ET.fromstring(xml_str) # convert xml string to python xml root tree
-        xml_root = xml_root[0] # remove additional root created by json2xml
+        Parameters
+        ----------
+        jer (str): The J2735 JER string to convert.
+        save (bool): Whether to save the XML to a file.
 
-        for elem in xml_root.iter():
-            if elem.tag.find('_') >= 0:
-                elem.tag = elem.tag[:elem.tag.find('_')]            
+        Returns
+        -------
+        str: The converted XML string.
+        '''
+        jer_dict = readfromstring(jer)
+        xml_str = json2xml.Json2xml(jer_dict, attr_type=False).to_xml()
 
-        xml_string = ET.tostring(xml_root, encoding='unicode')
-        xml_bytes = ET.tostring(xml_root)
         if save:
-            with open("j2735decode.xml","wb") as f:
-                f.write(xml_bytes)
-        return xml_string
-    
-    def writeJson(self, cleanObj, save=False):
-        jsonString = json.dumps(cleanObj, indent=2)
+            with open("j2735decode.xml","w") as f:
+                f.write(str(xml_str))
+        return str(xml_str)
+
+    def writeJson(self, jer: str, save=False) -> str:
+        """
+        Write J2735 JER to JSON file.
+
+        Parameters
+        ----------
+        jer (str): The J2735 JER string to write.
+        save (bool): Whether to save the JSON to a file.
+
+        Returns
+        -------
+        str: The J2735 JER string.
+        """
         if save:
             with open("j2735decode.json", "w") as f:
-                f.write(jsonString)
-        return jsonString
+                f.write(jer)
+        return jer
