@@ -25,7 +25,7 @@ pip install pycrate==0.7.11
 
 - **json2xml**
 ```sh
-pip install json2xml==4.1.0
+pip install json2xml==5.2.1
 ```
 [The following libraries are essential and should already be part of a standard Python3 installation:]
 - **json**
