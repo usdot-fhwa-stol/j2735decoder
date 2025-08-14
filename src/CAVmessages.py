@@ -36,7 +36,7 @@ class J2735_decode:
         str: The converted XML string.
         '''
         jer_dict = readfromstring(jer)
-        xml_str = json2xml.Json2xml(jer_dict, attr_type=False).to_xml()
+        xml_str = json2xml.Json2xml(jer_dict, attr_type=False, wrapper="MessageFrame").to_xml()
 
         if save:
             with open("j2735decode.xml","w") as f:
