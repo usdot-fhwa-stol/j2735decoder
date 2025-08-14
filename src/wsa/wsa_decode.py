@@ -37,13 +37,13 @@ class WSA_decode:
             return self.dict2xml(jer)
         return jer
     
-    def dict2xml(self, jer: str, save=False) -> str:
+    def dict2xml(self, jer: str) -> str:
         '''
-        Convert J2735 JER to XML.
+        Convert JER to XML.
 
         Parameters
         ----------
-        jer (str): The J2735 JER string to convert.
+        jer (str): The JER string to convert.
         save (bool): Whether to save the XML to a file.
 
         Returns
@@ -53,7 +53,4 @@ class WSA_decode:
         jer_dict = readfromstring(jer)
         xml_str = json2xml.Json2xml(jer_dict, attr_type=False, wrapper="SrvAdvMsg").to_xml()
 
-        if save:
-            with open("j2735decode.xml","w") as f:
-                f.write(str(xml_str))
         return str(xml_str)
