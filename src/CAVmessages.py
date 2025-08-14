@@ -4,6 +4,11 @@ from binascii import unhexlify
 from json2xml import json2xml
 from json2xml.utils import readfromstring
 
+# Monkey-patch imports to control JSON encoding behavior used by to_jer()
+import pycrate_asn1rt.asnobj
+import pycrate_core.elt as _core_elt
+import pycrate_asn1rt.codecs as _asn_codecs
+
 MESSAGE_FRAME = J2735_202409.MessageFrame.MessageFrame
 
 class J2735_decode:
@@ -15,6 +20,17 @@ class J2735_decode:
     Output - XML and JSON decoded J2735 message
     '''
     def __init__(self, payload, save=False):
+        # Ensure JER JSON preserves insertion order (disable alphabetical sorting)
+        # i.e., pycrate defaults to JSONEncoder(sort_keys=True). Override it here.
+        try:
+            # Recreate the encoder with sort_keys disabled
+            _core_elt.JsonEnc = _core_elt.JSONEncoder(sort_keys=False, indent=1)
+            # Propagate to modules that cached the encoder
+            _asn_codecs.JsonEnc = _core_elt.JsonEnc
+            pycrate_asn1rt.asnobj.JsonEnc = _core_elt.JsonEnc
+        except Exception:
+            pass
+
         decode = MESSAGE_FRAME
         decode.from_uper(unhexlify(payload))
         jer = decode.to_jer()
