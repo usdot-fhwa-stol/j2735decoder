@@ -60,7 +60,7 @@ pip install json2xml==5.2.1
    from CAVmessage import J2735_decode
    ```
 
-   **Note:** You may also set the desired J2735 V2X version in CAVmessage.py. Simply change the import name at the top of this file. It is currently defaulted to j2735_202409. You may change this to j2735_201603_combined.
+   **Note:** You may also set the desired J2735 V2X version in CAVmessages.py. Simply change the import name at the top of this file. It is currently defaulted to j2735_202409. You may change this to j2735_201603_combined.
 
 ### 2. **Understanding the Function**:
    The function is designed to decode J2735 UPER hex payloads into XML or JSON.
