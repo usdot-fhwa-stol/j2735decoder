@@ -16,6 +16,26 @@ A Python library crafted to decode SAE J2735 encoded UPER HEX messages.
 
 - **Python 3**
 
+### Install
+
+You can install dependencies and the SAE J2735 ASN.1 Python package bundled in this repo as a wheel.
+
+- Create and activate a virtual environment (recommended)
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
+
+- Install required packages
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+- Install the J2735 definitions package from the local wheel
+   ```bash
+   pip install wheels/j2735_202409-*.whl
+   ```
+
 #### Required Python Libraries
 
 - **Pycrate**

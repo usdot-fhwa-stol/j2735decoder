@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import J2735_202409
+import j2735_202409
 from binascii import unhexlify
 from json2xml import json2xml
 from json2xml.utils import readfromstring
@@ -9,7 +9,7 @@ import pycrate_asn1rt.asnobj
 import pycrate_core.elt as _core_elt
 import pycrate_asn1rt.codecs as _asn_codecs
 
-MESSAGE_FRAME = J2735_202409.MessageFrame.MessageFrame
+MESSAGE_FRAME = j2735_202409.MessageFrame.MessageFrame
 
 class J2735_decode:
     '''
