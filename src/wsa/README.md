@@ -1,3 +1,18 @@
+# Install
+
+You can install dependencies and the SAE J2735 ASN.1 Python package bundled in this repo as a wheel.
+
+- Create and activate a virtual environment (recommended)
+   ```sh
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
+
+- Install the IEEE 1609.3 package from the local wheel
+   ```sh
+   pip install wheels/ieee*.whl
+   ```
+
 # Usage
 
 ## 1. **Importing the Function**:
