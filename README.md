@@ -31,7 +31,7 @@ You can install dependencies and the SAE J2735 ASN.1 Python package bundled in t
    pip install -r requirements.txt
    ```
 
-- Install the J2735 definitions package from the local wheel
+- Install the J2735 definitions package from the local wheel. You may install either or both wheels available. Example:
    ```bash
    pip install wheels/j2735_202409-*.whl
    ```
@@ -58,6 +58,8 @@ pip install json2xml==5.2.1
    ```python
    from CAVmessage import J2735_decode
    ```
+
+   **Note:** You may also set the desired J2735 V2X version in CAVmessage.py. Simply change the import name at the top of this file. It is currently defaulted to j2735_202409. You may change this to j2735_201603_combined.
 
 ### 2. **Understanding the Function**:
    The function is designed to decode J2735 UPER hex payloads into XML or JSON.
